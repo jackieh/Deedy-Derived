@@ -30,7 +30,7 @@
 
 % Date command
 \usepackage[absolute]{textpos}
-\usepackage[UKenglish]{isodate}
+\usepackage[USenglish]{isodate}
 \setlength{\TPHorizModule}{1mm}
 \setlength{\TPVertModule}{1mm}
 \newcommand{\lastupdated}{\begin{textblock}{60}(155,5)
@@ -57,6 +57,11 @@ Last Updated on \today
 \titlespacing{\section}{0pt}{0pt}{0pt} 
 \titlespacing{\subsection}{0pt}{0pt}{0pt}
 \newcommand{\sectionsep}{\vspace{8pt}}
+\newcommand{\subsectionsep}{\vspace{4pt}}
+\newcommand{\vbarsep}{\hspace{2pt}}
+% The spaces between words in \runsubsection are too small and the rendered text
+% almost looks like a single word.
+\newcommand{\spacesep}{\hspace{0.8mm}}
 
 % Headings command
 \titleformat{\section}{\color{headings}
@@ -78,7 +83,9 @@ Last Updated on \today
 \color{headings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont {#1\\} \normalfont}
 
 % Bullet Lists with fewer gaps command
+\usepackage{enumitem}
+\setitemize[0]{leftmargin=10pt}
 \newenvironment{tightemize}{
-\vspace{-\topsep}\begin{itemize}\itemsep1pt \parskip0pt \parsep0pt}
+\begin{itemize}\itemsep1pt \parskip0pt \parsep0pt}
 {\end{itemize}\vspace{-\topsep}}
 

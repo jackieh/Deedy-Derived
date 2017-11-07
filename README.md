@@ -1,3 +1,12 @@
+Jackieh-Resume
+=========================
+
+A fork of the Deedy-Resume repository for the purposes of creating my own resume. See the description below for the original repository.
+
+Some files have been deleted in this fork because I don't use a Mac and some of the original resume sections are not applicable.
+
+---
+
 Deedy-Resume
 =========================
 
