@@ -7,9 +7,6 @@ Some files have been deleted in this fork because I don't use a Mac and some of 
 
 ---
 
-Deedy-Resume
-=========================
-
 A **one-page**, **two asymmetric column** resume template in **XeTeX** that caters particularly to an **undergraduate Computer Science** student.
 As of **v1.2**, there is an option to choose from two templates:
 
