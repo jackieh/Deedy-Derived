@@ -1,0 +1,284 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Jackie}{Harris}{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+\subsectionsep
+
+\subsection{Carnegie Mellon} \subsection{University}
+\subsectionsep
+\descript{B.S. in ECE, Minor in CS}
+\location{Sept 2011 – May 2015 \\ Pittsburgh, PA \\ GPA: 3.19}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     CONTACT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Contact} 
+\subsectionsep
+
+\location{Email address:}
+\href{mailto:hackiejarris@gmail.com}{hackiejarris@gmail.com} \\
+\subsectionsep
+\location{Phone number:}
+703.740.6642 \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+\subsectionsep
+
+\location{Web page resume:}
+\href{http://jackieh.net/resume}{jackieh.net/resume} \\
+\subsectionsep
+\location{LinkedIn page:}
+\href{http://jackieh.net/linkedin}{jackieh.net/linkedin} \\
+\subsectionsep
+\location{GitHub page:}
+\href{http://jackieh.net/github}{jackieh.net/github} \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsectionsep
+
+\subsection{Languages}
+\subsectionsep
+\location{Most familiar:}
+C \textbullet{} C++ \textbullet{} Python \textbullet{} Java \\
+\subsectionsep
+\location{Somewhat familiar:}
+Matlab \textbullet{} SystemVerilog \textbullet{} Verilog \\
+\sectionsep
+
+\subsection{Software}
+\subsectionsep
+\location{Development environment:}
+Unix shell \textbullet{} Vim \textbullet{} GDB \\
+\subsectionsep
+\location{Version control:}
+Perforce \textbullet{} Git \textbullet{} Subversion \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+\subsectionsep
+
+\begin{tightemize}
+\item[-] \href{https://www.cs.cmu.edu/~fp/courses/15411-f13/}
+              {Compiler Design$^*$} \\
+\item[-] \href{https://www.andrew.cmu.edu/course/15-440-s13/}
+              {Distributed Systems$^*$} \\
+\item[-] \href{http://www.ece.cmu.edu/~ece447/s14/doku.php}
+              {Intro to Computer Architecture$^*$} \\
+\item[-] \href{https://web.archive.org/web/20141220070746/https://www.cs.cmu.edu/~410/}
+              {Operating System Design and Implementation} \\
+\item[-] \href{https://web.archive.org/web/20150511170214/https://www.ece.cmu.edu/~ece549/}
+              {Embedded Systems Design} \\
+\item[-] \href{https://web.archive.org/web/20130510083304/http://www.ece.cmu.edu/~ece348/}
+              {Embedded Systems Engineering} \\
+\item[-] \href{http://www.cs.cmu.edu/~avrim/451f13/index.html}
+              {Algorithm Design and Analysis} \\
+\end{tightemize}
+{\footnotesize \textit{\textbf{(* Earned an A) }}} \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+\subsectionsep
+
+\runsubsection{NVIDIA}
+\descript{| \vbarsep GPU Architect}
+\location{Aug 2015 – Present \vbarsep | \vbarsep Santa Clara, CA}
+\subsectionsep
+\begin{tightemize}
+\item[-] Hardware engineer for the \textbf{GPU process scheduling hardware
+         unit}.
+\item[-] Implementing features for the unit, and \textbf{defining the hardware
+         and software programming interface} for the GPU for the use of such
+	 features.
+\item[-] Features include hardware improvements required for implementation of
+         an NVLink flush protocol, and other hardware features for improved
+	 driver efficiency for Windows scheduling models.
+\item[-] Specific primary duties include implementing new GPU features in the
+         unit's \textbf{C++ functional model}, writing \textbf{descriptions of
+	 features in manuals} used for development of graphics driver software,
+	 and \textbf{designing test plans} for features.
+\item[-] Assisting in \textbf{hardware design}, \textbf{debug of driver
+         software}, \textbf{unit verification and chip verification} for owned
+	 features and other features.
+\item[-] \textbf{Work within a team} of 5-8 architects for the unit, interface
+         frequently with a verification team and an ASIC design team for the
+	 unit, and sync weekly with teams that develop graphics driver software
+	 for NVIDIA.
+\item[-] Worked on the Volta GPU architecture and subsequent architectures.
+\item[-] Technologies used: \emph{\textbf{C++}, Python, Perforce, Vim, Linux}.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Qualcomm}
+\descript{| \vbarsep Interim Engineering Intern}
+\location{May 2014 – Aug 2014 \vbarsep | \vbarsep San Diego, CA}
+% Strange vertical space introduced here is eliminated for visual consistency
+% with the negative vspace.
+\vspace{-6.5pt}
+\begin{tightemize}
+\item[-] Maintained a Software Product Line reporting tool.
+\item[-] Wrote software for maintaining a Salt deployment, for remote
+         configuration and execution management of Windows machines.
+\item[-] Technologies used: \emph{\textbf{Python}, Git, Perforce, Vim, Eclipse,
+         Linux, Windows}.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Carnegie \spacesep Mellon \spacesep CyLab}
+\descript{| \vbarsep Research Assistant Intern}
+\location{May 2013 – Aug 2013 \vbarsep | \vbarsep Pittsburgh, PA}
+% Strange vertical space introduced here is eliminated for visual consistency
+% with the negative vspace.
+\vspace{-6.5pt}
+\begin{tightemize}
+\item[-] Developed back end of a software tool for automated static analysis of
+         router firmware releases for security vulnerabilities.
+\item[-] Designed algorithms and heuristics for file format detection, binary
+         analysis (reverse engineering and file extraction), password hash
+	 detection.
+\item[-] Integrated and added to open-source tools that are used for automatic
+         extraction of unconventional compression formats.
+\item[-] Worked with a team to create a fully working easy-to-use application,
+         and published results on the tool's effectiveness.
+\item[-] Technologies used: \emph{\textbf{Python}, Bash, Java, PostgreSQL, Git,
+         Vim, Linux}.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+\subsectionsep
+
+\runsubsection{Kernel \spacesep Project}
+\descript{| \vbarsep OS Design and Implementation}
+\location{October 2014 – December 2014 \vbarsep | \vbarsep Pittsburgh, PA}
+\subsectionsep
+Designed and implemented a kernel for x86. Includes system calls for the
+following: process management, task management, program execution, asynchronous
+signals, page allocation, console driver, timer and keyboard. Collaboration
+project with a partner. Technologies used: \emph{\textbf{C}, Simics, x86 Assembly,
+Git, Vim, Linux}.
+\sectionsep
+
+\runsubsection{ARM \spacesep Simulators}
+\descript{| \vbarsep Intro to Computer Architecture}
+\location{January 2014 – May 2014 \vbarsep | \vbarsep Pittsburgh, PA}
+\subsectionsep
+Implemented a series of simulators for the ARM instruction set. Includes
+gate-level simulation of a tournament branch predictor and a C simulation of
+multicore processor with cache coherence. Was responsible for designing and
+generating test cases. Series of solo projects. Technologies used:
+\emph{\textbf{C}, \textbf{SystemVerilog}, Git, Vim, Linux}.
+
+\end{minipage}
+\end{document}
+\documentclass[]{article}

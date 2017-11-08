@@ -1,5 +1,11 @@
-Deedy-Resume
+Jackieh-Resume
 =========================
+
+A fork of the Deedy-Resume repository for the purposes of creating my own resume. See the description below for the original repository.
+
+Some files have been deleted in this fork because I don't use a Mac and some of the original resume sections are not applicable.
+
+---
 
 A **one-page**, **two asymmetric column** resume template in **XeTeX** that caters particularly to an **undergraduate Computer Science** student.
 As of **v1.2**, there is an option to choose from two templates:
