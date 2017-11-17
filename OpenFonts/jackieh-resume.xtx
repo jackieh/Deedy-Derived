@@ -188,28 +188,28 @@ Perforce \textbullet{} Git \textbullet{} Subversion \\
 
 \runsubsection{NVIDIA}
 \descript{| \vbarsep GPU Architect}
-\location{Aug 2015 – Present \vbarsep | \vbarsep Santa Clara, CA}
+\location{August 2015 – November 2017 \vbarsep | \vbarsep Santa Clara, CA}
 \subsectionsep
 \begin{tightemize}
 \item[-] Hardware engineer for the \textbf{GPU process scheduling hardware
          unit}.
-\item[-] Implementing features for the unit, and \textbf{defining the hardware
-         and software programming interface} for the GPU for the use of such
-	 features.
-\item[-] Features include hardware improvements required for implementation of
+\item[-] Implemented features for the unit, and \textbf{defined the hardware and
+         software programming interface} for the GPU for the use of such
+         features.
+\item[-] Features included hardware improvements required for implementation of
          an NVLink flush protocol, and other hardware features for improved
-	 driver efficiency for Windows scheduling models.
-\item[-] Specific primary duties include implementing new GPU features in the
+         driver efficiency for Windows scheduling models.
+\item[-] Specific primary duties included implementing new GPU features in the
          unit's \textbf{C++ functional model}, writing \textbf{descriptions of
-	 features in manuals} used for development of graphics driver software,
-	 and \textbf{designing test plans} for features.
-\item[-] Assisting in \textbf{hardware design}, \textbf{debug of driver
+         features in manuals} used for development of graphics driver software,
+         and \textbf{designing test plans} for features.
+\item[-] Assisted in \textbf{hardware design}, \textbf{debug of driver
          software}, \textbf{unit verification and chip verification} for owned
-	 features and other features.
-\item[-] \textbf{Work within a team} of 5-8 architects for the unit, interface
-         frequently with a verification team and an ASIC design team for the
-	 unit, and sync weekly with teams that develop graphics driver software
-	 for NVIDIA.
+         features and other features.
+\item[-] \textbf{Worked within a team} of 5-8 architects for the unit,
+         interfaced frequently with a verification team and an ASIC design team
+         for the unit, and synced weekly with teams that develop graphics driver
+         software for NVIDIA.
 \item[-] Worked on the Volta GPU architecture and subsequent architectures.
 \item[-] Technologies used: \emph{\textbf{C++}, Python, Perforce, Vim, Linux}.
 \end{tightemize}
@@ -217,7 +217,7 @@ Perforce \textbullet{} Git \textbullet{} Subversion \\
 
 \runsubsection{Qualcomm}
 \descript{| \vbarsep Interim Engineering Intern}
-\location{May 2014 – Aug 2014 \vbarsep | \vbarsep San Diego, CA}
+\location{May 2014 – August 2014 \vbarsep | \vbarsep San Diego, CA}
 % Strange vertical space introduced here is eliminated for visual consistency
 % with the negative vspace.
 \vspace{-6.5pt}
@@ -232,7 +232,7 @@ Perforce \textbullet{} Git \textbullet{} Subversion \\
 
 \runsubsection{Carnegie \spacesep Mellon \spacesep CyLab}
 \descript{| \vbarsep Research Assistant Intern}
-\location{May 2013 – Aug 2013 \vbarsep | \vbarsep Pittsburgh, PA}
+\location{May 2013 – August 2013 \vbarsep | \vbarsep Pittsburgh, PA}
 % Strange vertical space introduced here is eliminated for visual consistency
 % with the negative vspace.
 \vspace{-6.5pt}
@@ -241,7 +241,7 @@ Perforce \textbullet{} Git \textbullet{} Subversion \\
          router firmware releases for security vulnerabilities.
 \item[-] Designed algorithms and heuristics for file format detection, binary
          analysis (reverse engineering and file extraction), password hash
-	 detection.
+         detection.
 \item[-] Integrated and added to open-source tools that are used for automatic
          extraction of unconventional compression formats.
 \item[-] Worked with a team to create a fully working easy-to-use application,
