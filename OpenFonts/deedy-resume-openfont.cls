@@ -11,6 +11,7 @@
 % Package Imports
 \usepackage[hmargin=1.25cm, vmargin=0.75cm]{geometry}
 \usepackage[hidelinks]{hyperref}
+\usepackage{parskip}
 
 % Publications
 \usepackage{cite}

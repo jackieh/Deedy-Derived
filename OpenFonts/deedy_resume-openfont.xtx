@@ -40,7 +40,6 @@
 % Known Issues:
 % 1. Overflows onto second page if any column's contents are more than the
 % vertical limit
-% 2. Hacky space on the first bullet point on the second column.
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -176,8 +175,8 @@ AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
 \runsubsection{Coursera}
 \descript{| KPCB Fellow + Software Engineering Intern }
 \location{June 2014 – Sep 2014 | Mountain View, CA}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
-\begin{tightemize}\item 52 out of 2500 applicants chosen to be a KPCB Fellow 2014.
+\begin{tightemize}
+\item 52 out of 2500 applicants chosen to be a KPCB Fellow 2014.
 \item Led and shipped Yoda - the admin interface for the new Phoenix platform. 
 \item Full-stack developer - Wrote and reviewed code for JS using Backbone, Jade, Stylus and Require and Scala using Play
 \end{tightemize}
